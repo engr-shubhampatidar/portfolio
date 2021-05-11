@@ -165,6 +165,13 @@ button{
 	display: none;
 }
 
+.course{
+	background-color: #efe6ef;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
 .show {
 	margin: 2% 5%;
 	display: block !important;
@@ -214,8 +221,9 @@ button{
 }
 
 #footer i{
-	font-size: 35px;
+	font-size: 25px;
 	color: #efe6ef;
+	margin-bottom: 15px;
 }
 
 button:hover{
