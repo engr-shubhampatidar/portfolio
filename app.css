@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Css reset complete */
+ /* #efe6d5 #9dbeb7 #e73213 */
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #9dbeb7;
+	font-size: 20px;
+	letter-spacing: normal;
+}
+
+header{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1rem;
+}
+
+main p{
+	line-height: 1.2rem;
+}
+
+main h2,h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 0rem;
+	color: #efe6ef;
+	margin: 10px 0 40px;
+}
+
+button{
+	border: 1px solid  #e73213;
+	border-radius: 0.3rem;
+	background-color: inherit;
+	color: #efe6ef;
+}
+
+.nav-link{
+	color: #e73213;
+}
+
+#hero-section {
+	margin: 0rem 2rem 0rem 2rem;
+	height: 90vh;
+}
+
+#hero-section h1{
+	font-family: 'Source Code Pro', monospace;
+	margin: 0px 0px 30px 4px;
+}
+
+#hero-section h1:hover{
+	color: #e73213;
+}
+
+#hero-section h2,h3 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin: 0%;
+}
+
+
+#hero-section h3{
+	font-size: 1.4rem;
+	margin: 10px 0px 0px;
+}
+
+#hero-section p{
+	margin: 20px 0px 0px;
+}
+
+#hero-section button{
+	margin: 50px 0px 0px;
+	padding: 25px 35px;
+}
+
+#about {
+	height: 90vh;
+	margin: 0rem 2rem 0rem 2rem;
+}
+
+
+#about p{
+	margin: 0px 0px 15px;
+}
+
+#about ul{
+	margin: 20px 0px 0px;
+}
+
+#about li{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1rem;
+	margin: 0px 0px 10px;
+	vertical-align: text-top;
+}
+
+#about img{
+	align-self: center;
+	margin: 3.5rem 0rem 0rem 0rem;
+	border-radius: 0.4rem;
+	box-shadow: 25px 25px 5px 0px #9dbeb7 ,26px 26px 1px #e73213;
+}
+
+#achievement{
+	height: 100vh;
+	margin: 0rem 2rem 0rem 2rem;
+}
+
+#achievement button{
+	margin: 1% 5%;
+	border: 1px solid #efe6ef;
+	padding: 2px 5px;
+	border-radius: 10px;
+}
+
+#achievement img{
+	display: none;
+}
+
+.course{
+	background-color: #efe6ef;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.show {
+	margin: 2% 5%;
+	display: block !important;
+	object-fit:	cover;
+	width: 100%;
+	transition: all 3300ms;
+}
+
+#work {
+	height: 100vh;
+	margin: 0rem 2rem 0rem 2rem;
+}
+
+#customerLoan{
+	background-color: #e73313;
+	border-radius: 1%;
+	background-image: url(/img/-1182752405.jpg);
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	height: 40vh;
+	padding: 1.5rem;
+	color: #efe6ef;
+}
+
+#homeInventory{
+	background-color: #e73313;
+	margin-top: 10%;
+	border-radius: 1%;
+	background-image: url(/img/-1182752405.jpg);
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	height: 40vh;
+	padding: 1.5rem;
+	color: #efe6ef;
+}
+
+.project-overline, .project-tech-list {
+	font-family: 'Source Code Pro', monospace;
+	margin: 0rem 0rem 0.8rem;
+}
+
+.project-title, .project-description{
+	margin: 0rem 0rem 0.8rem;
+}
+
+#contact{
+	height: 35vh;
+	margin: 2rem 2rem 0rem 2rem;
+	justify-content: center;
+}
+
+#contact button{
+	margin: 25px 0px 0px;
+	padding: 10px 25px;
+}
+
+#footer div{
+	height: 5vh;
+	padding: 10px;
+	padding-bottom: 3rem;
+}
+
+#footer i{
+	font-size: 25px;
+	color: #efe6ef;
+	margin-bottom: 15px;
+}
+
+button:hover{
+	border-color: #00000067;
+	box-shadow: 0px 0px 24px 1.5px #efe6ef65;
+	transition: all 500ms;
+}
+
+ 
+@media (min-width: 576px){
+	#hero-section h2{
+		font-size: 2.5rem;
+	}
+	#hero-section h3{
+		font-size: 2.1rem;
+	}
+	header{
+		font-size: 1.2rem;
+	}
+	main h2,h3{
+		font-size: 2.2rem;
+	}
+} 
+
+
+@media  (min-width: 768px){
+	#hero-section h2{
+		font-size: 2.2rem;
+	}
+	#hero-section h3{
+		font-size: 2rem;
+	}
+	header{
+		font-size: 1.2rem;
+	}
+	main h2,h3{
+		font-size: 2.2rem;
+	}
+} 
+
+@media (min-width: 992px){
+	#hero-section h2{
+		font-size: 2.8rem;
+	}
+	#hero-section h3{
+		font-size: 3rem;
+	}
+	header{
+		font-size: 1.2rem;
+	}
+	main h2,h3{
+		font-size: 2.2rem;
+	}
+} 
+
+@media (min-width: 1200px){
+	body{
+		font-size: 28px;
+	}
+	#hero-section h2{
+		font-size: 3.8rem;
+	}
+	#hero-section h3{
+		font-size: 3.5rem;
+	}
+	header{
+		font-size: 1.2rem;
+	}
+	main h2,h3{
+		font-size: 2.4rem;
+	}
+}
+
